@@ -1,0 +1,199 @@
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+/* Base styles */
+.dd {
+  display: flex;
+}
+
+.bd-txt {
+  text-align: center;
+  width: 30%;
+  margin-top: 30%; /* Keeping your preferred margin */
+  margin-left: 5%;
+  /* z-index: 1; */
+}
+
+.bd-btn {
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 18px;
+  border: none;
+  color: blue;
+  margin-top: 30px;
+  font-weight: 700;
+  /* z-index: 1; */
+}
+
+.bd-txt-h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* z-index: 1x`; */
+  width: 122%;
+}
+
+.bd-txt-p {
+  text-align: center;
+  font-weight: lighter;
+  /* z-index: 1; */
+}
+
+.img {
+  margin-left: 20%;
+  /* z-index: 0; */
+}
+
+* {
+  background-color: rgb(241, 241, 241);
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  padding: 4px;
+  /* z-index: 1; */
+}
+
+.ion {
+  margin-left: 10rem;
+  /* z-index: 1; */
+}
+
+.icon {
+  width: 10px;
+  padding: 1px;
+  color: rgb(0, 0, 0);
+  background: none;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 200px) and (max-width: 650px) {
+  body{
+    background-size: cover;
+    /* background: url('image/fii.jpg'); */
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  *{
+    overflow: hidden;
+    /* height: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* z-index:1; */
+  }
+
+  .bd-txt {
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+    margin-top:80%;
+    margin-left:-1%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 200;
+    position:relative;
+    /* background-color:black; */
+    opacity:90%;
+    /* border-radius: 20px; */
+     /* Increase opacity for better text contrast */
+    color: white; /* Ensure text color is white for visibility */
+    padding: 20px;
+    /* z-index: 2; Ensure this element is above other elements like background images */
+  }
+.oo{
+  background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+  /* background-color: black; */
+}
+.gh button{
+  position: relative;
+  top:16px;
+}
+  .dd {
+    
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    /* flex-wrap: wrap; */
+    position: relative; /* Position relative to ensure absolute children align correctly */
+  }
+
+  .img {
+    width: 100%;
+    display: none; 
+    /* z-index: 1; Keep z-index lower than .bd-txt */
+  }
+
+  .icon {
+    position: absolute;
+    background: transparent;
+    top: 75%;
+  }
+
+  .bd-txt-btn {
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+    /* background-color:black; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon-btn {
+    margin: 0 5px;
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+  }
+
+  .ion {
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+    /* background-color:black; */
+    margin-left: 0;
+    display: flex;
+  }
+
+  .icon {
+    color:aliceblue;
+    margin-top: 5px;
+  }
+
+  .bd-btn {
+    
+    padding: 8px 20px;
+    font-size: 14px;
+    margin-right:20%;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .bd-txt-h1 {
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+    /* background-color:black; */
+    font-size: 18px;
+    max-width: 60%;
+  }
+
+  .bd-txt-fr {
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+    /* background-color:black; */
+    display: flex;
+    text-align: left;
+    
+  }
+.bd-txt-fr-p{
+  background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+  /* background-color:black; */
+}
+  .bd-txt-p {
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+    /* background-color:black; */
+    font-size: 12px;
+    max-width: 80%;
+    display: flex;
+    text-align: left;
+  }
+
+  .bd-txt-h {
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+    /* background-color:black; */
+   
+    max-width: 30rem;
+  }
+}

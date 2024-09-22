@@ -1,0 +1,127 @@
+*{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dd{
+    background-image: url(../public/image/fif.jpg);
+    height:50rem;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    border-radius: 20px;
+    color: aliceblue;
+   
+    
+}
+.bd{
+    overflow: hidden;
+}
+.bd-txt{
+    position: relative;
+    top: 68%;  
+    left: 8%;
+    align-items: center;
+    text-align: center;
+     background-color: rgb(23, 41, 41);
+     height: 30vh;
+     padding: 10px;
+     border-radius: 30px;
+     margin: 40px;
+     width: 60rem;
+}
+
+.bd-btn{
+    background-color: aliceblue;
+    color: blue;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.icon-btn {
+    background: none;
+    border: none;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+  }
+  
+  
+  .icon {
+    color: white;
+    background: none;
+  }
+
+@media (min-width:610px )and (max-width:900px) { 
+    .dd{
+        
+        
+    }
+    .bd-txt{
+        background-color:#222121e3;
+        height: 40vh;
+        position: relative;
+        top: 50%;
+        left:-8%;
+       border-radius: 0px;
+       display: flex;
+       justify-content: center;
+       /* box-shadow: 0 -20px 20px rgba(255,255,255, 0.2); */
+
+        /* padding-top: 30px; */
+        /* padding-bottom:-60px ; */
+       
+    }
+    .bd-txt-h1{
+        font-weight: 900;
+    }
+    .bd-txt-fr{
+        /* max-width:60%; */
+        /* display: flex; */
+        /* align-items:flex-start; */
+        text-align:left;
+        margin-bottom: 10px;
+        width: 30rem;
+        margin: 20px;
+        position: relative;
+        
+        /* top: 40%; */
+    }
+    .bd-txt-p{
+        flex-basis: 50rem;
+        line-height: 20px;
+        max-width:40%;
+        text-align:left;
+        margin-top:10px;
+        text-align:left;
+        margin: 20px;
+        font-weight:lighter;
+    }
+    .bd-txt-fr-s{
+        /* color: red; */
+        /* margin: 30px; */
+        /* flex-basis: 10%; */
+    }
+    .bd-txt-btn{
+        display: flex;
+        justify-content: right;
+        /* margin-top: -20px;
+        margin-right: 30px; */
+        position:relative;
+        left:-40%;
+        top:29%;
+
+    }
+    .bd-btn{
+        padding: 10px 20px;
+       
+       
+    }
+    .bd-cc{
+        background-color: rgb(32, 110, 178);
+        border-radius: 50%;
+        height:20px;
+        width: 3px;
+        margin: 3px;
+    }
+}

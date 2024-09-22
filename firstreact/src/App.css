@@ -1,0 +1,52 @@
+  /* {
+       /* margin: 5px;
+       background-color: rgb(255, 255, 255); 
+  }
+  button{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+  }
+  .to-do-list{
+    text-align: center;
+    margin-top: 100px;
+  }
+.add-btn{
+  background-color: green !important;
+}
+  .delete-button{
+    background-color: red;
+  }
+  .move-button{
+   background-color: rgb(50, 111, 135);
+  }
+  .move-button:hover{
+    background-color: rgba(2, 98, 242, 0.591);
+  }
+  li{
+    font-weight: 700;
+    font-size: larger;
+    background-color: white;
+   margin: 40px;
+    border: 2px solid black;
+   border-radius: 5px;
+  }
+  input{
+    height: 30px;
+    background-color: rgb(136, 159, 156);
+  }
+  h1{
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  .text{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  span{
+    background-color:white;
+    
+  } */

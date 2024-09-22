@@ -1,0 +1,14 @@
+.joel{
+    color:black;
+    background:linear-gradient( red, yellow);
+    border-radius: 5px;
+    
+    height: 200px;
+}
+
+.azez{
+    color: green;
+    background:linear-gradient( yellow, red);
+    border-radius: 5px;
+    height: 200px;
+}

@@ -1,0 +1,256 @@
+/* Base styles */
+.dd {
+    display: flex;
+  }
+  
+  .bd-txt {
+    text-align: center;
+    width: 30%;
+    margin-top: 10%; /* Keeping your preferred margin */
+    margin-left: 5%;
+    /* z-index: 1; */
+  }
+  
+  .bd-btn {
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 18px;
+    border: none;
+    color: blue;
+    margin-top: 30px;
+    font-weight: 700;
+    /* z-index: 1; */
+  }
+  
+  .bd-txt-h1 {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* z-index: 1x`; */
+    width: 122%;
+  }
+  
+  .bd-txt-p {
+    text-align: center;
+    font-weight: lighter;
+    /* z-index: 1; */
+  }
+  
+  .img {
+    margin-left: 20%;
+    /* z-index: 0; */
+  }
+ 
+  * {
+    background-color: rgb(241, 241, 241);
+    padding:0;
+  }
+  
+  .icon-btn {
+    background: none;
+    border: none;
+    padding: 4px;
+    position:relative;
+    top:50px;
+    /* margin-top:-0px; */
+    /* z-index: 1; */
+  }
+  
+  .ion {
+    margin-left: 10rem;
+    /* z-index: 1; */
+  }
+  
+  .icon {
+    width: 10px;
+    padding: 1px;
+    color: rgb(0, 0, 0);
+    background: none;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (min-width: 300px) and (max-width: 650px) {
+    body{
+      /* background: url('image/fii.jpg') !important; */
+      background-repeat: no-repeat;
+      background-size: cover;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     /* padding:0px; */
+    
+     /* margin-right:20px; */
+      
+     
+    }
+    .bodykk{
+      background-image: url('image/se.jpg');
+    }
+    .feature-item{
+      background-color: black;
+    }
+    * {
+      
+      /* overflow: hidden; */
+      /* background-color:black; */
+      padding:0px;
+      background-size: cover;
+      /* width: 100%; */
+      /* z-index:1; */
+    }
+    .bd-txt {
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+      margin-top:80%;
+      margin-left:auto;
+      flex-wrap: wrap;
+      display: flex;
+      text-align: left;
+      align-items: flex-start;
+      flex-grow: 1;
+      flex-basis: 200;
+      position:relative;
+      /* background-color:black; */
+    opacity:39%;
+    /* background-size: cover; */
+    
+      /* border-radius: 20px; */
+       /* Increase opacity for better text contrast */
+      color: rgb(255, 255, 255); /* Ensure text color is white for visibility */
+      padding: 20px;
+      /* z-index: 2; Ensure this element is above other elements like background images */
+    }
+  
+    .dd {
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+      justify-content: center;
+      align-items: center;
+      background: transparent;
+      /* flex-wrap: wrap; */
+      position: relative; /* Position relative to ensure absolute children align correctly */
+    }
+  
+    .img {
+      width: 100%;
+      display: none; 
+      /* z-index: 1; Keep z-index lower than .bd-txt */
+    }
+  img{
+    display: none;
+  }
+    .icon {
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+      position: absolute;
+      background: transparent;
+      top: 75%;
+      /* background-color:black; */
+    }
+  
+    .bd-txt-btn {
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+      /* background-color:black; */
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .icon-btn {
+      margin: 0 5px;
+    }
+  
+    .ion {
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+      /* background-color:black; */
+      margin-left: 0;
+      display: flex;
+    }
+  li{
+    width: 100%;
+  }
+    .icon {
+      color:aliceblue;
+      margin-top:-80px;
+    }
+  button{
+    position: relative;
+    top: 40px;
+    left: 20px;
+  }
+    
+    .bd-btn {
+      
+      padding: 13px 28px;
+      font-size: 14px;
+      margin-left:-10%;
+      margin-top: 0;
+      margin-bottom:65px;
+    }
+  
+    .bd-txt-h1 {
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+      /* background-color:black; */
+      font-size:23px;
+     text-align: left;
+     align-items: flex-start;
+     letter-spacing: 0.09rem;
+    
+      /* max-width:10%; */
+    }
+.bd-txt-h3{
+  background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+  /* background-color:black; */
+  margin-top:10px;
+  margin-left:30px;
+  width: 100%;
+  /* width: 100%; */
+}
+.oo{
+  background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+  /* background-color: black; */
+}
+  h3{
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+    font-size:19px;
+    /* background-color:black; */
+    margin-bottom:15px;
+  }
+    .bd-txt-fr {
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+      /* background-color:black; */
+      display: flex;
+      text-align: left;
+      margin-top:-18px;
+      
+    }
+  .bd-txt-fr-p{
+    background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+    letter-spacing:0.09rem ;
+    /* max-width:; */
+    /* display: none; */
+    /* background-color:black; */
+    margin-top:-6px;
+  }
+ 
+    .bd-txt-p {
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+      /* background-color:black; */
+      font-size:16px;
+      /* max-width: 80%; */
+      display: flex;
+      
+      /* text-align: left; */
+    }
+    .bd-txt-p li{
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+      /* background-color:black; */
+      text-align: left;
+      width: 100%;
+    }
+    p{
+      width: 100%;
+    }
+    .bd-txt-h {
+      background:linear-gradient( rgba(6, 3, 3, 0.8) 3.52%, rgba(0, 0, 0, 30) 9.42%);
+        /* margin-left:-10%; */
+      /* background-color:black; */
+     
+      max-width: 30rem;
+    }
+  }
+  
