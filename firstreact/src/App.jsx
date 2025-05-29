@@ -6,11 +6,14 @@
 // import './App.css'
 // import { Carousel } from 'bootstrap'
 import './App.css'
+import UseRef from './UseRef'
+
+import WizardChan from './WizardChan'
 // import MyComponent1 from './MyComponent1'
 // import TodoList from '../TodoList'
 // import UseEffect from './UseEffect'
 // import WebPage from './WebPage'
-import Carousel from './Carousel'
+// import Carousel from './Carousel'
 // import NewCarousel from './NewCarousel'
 // import NewCarousel2 from './NewCarousel2'
 // import NewCarousel3 from './NewCarousel3'
@@ -72,6 +75,8 @@ function App() {
 
   return(
     <>
+    <UseRef/>
+    <WizardChan/>
       {/* <MyComponent/> */}
       {/* <EventVariableArgument/> */}
       {/* <ExternalCSS/> */}
@@ -107,7 +112,7 @@ function App() {
       {/* <UseEffect/> */}
       {/* <WebPage/> */}
       {/* <NewCarousel/> */}
-      <Carousel/>
+      {/* <Carousel/> */}
       {/* <NewCarousel2/> */}
       {/* <NewCarousel3/> */}
       {/* <NewCarousel4/> */}
